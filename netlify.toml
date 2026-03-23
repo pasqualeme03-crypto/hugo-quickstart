@@ -6,6 +6,8 @@
 
 [build.environment]
   HUGO_VERSION = "0.146.5"
+  # If you require the extended build with SCSS support, add:
+  # HUGO_EXTENDED = "true"
 
 [[plugins]]
   package = "netlify-plugin-cypress"
